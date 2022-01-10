@@ -4,7 +4,7 @@
 #
 Name     : pypi-requests_mock
 Version  : 1.9.3
-Release  : 67
+Release  : 68
 URL      : https://files.pythonhosted.org/packages/71/1e/1680394d9ad02bf7fb34f6e161b6eff62c972f2c1e647389ce2d324b3c25/requests-mock-1.9.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/71/1e/1680394d9ad02bf7fb34f6e161b6eff62c972f2c1e647389ce2d324b3c25/requests-mock-1.9.3.tar.gz
 Summary  : Mock out responses from the requests package
@@ -14,19 +14,13 @@ Requires: pypi-requests_mock-license = %{version}-%{release}
 Requires: pypi-requests_mock-python = %{version}-%{release}
 Requires: pypi-requests_mock-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: requests-mock
-Provides: requests-mock-python
-Provides: requests-mock-python3
-BuildRequires : extras
-BuildRequires : fixtures
+BuildRequires : pypi(mock)
 BuildRequires : pypi(pbr)
+BuildRequires : pypi(pytest)
 BuildRequires : pypi(requests)
 BuildRequires : pypi(six)
-BuildRequires : pytest
-BuildRequires : python-mock
-BuildRequires : requests
-BuildRequires : six
-BuildRequires : testtools
+BuildRequires : pypi(testtools)
+BuildRequires : pypi-pytest
 
 %description
 requests-mock
@@ -70,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641489069
+export SOURCE_DATE_EPOCH=1641858956
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
