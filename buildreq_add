@@ -3,5 +3,4 @@
 pypi(requests)
 pypi(mock)
 pypi(six)
-pypi(testtools)
 pypi(pytest)

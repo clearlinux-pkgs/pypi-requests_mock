@@ -4,7 +4,7 @@
 #
 Name     : pypi-requests_mock
 Version  : 1.9.3
-Release  : 68
+Release  : 69
 URL      : https://files.pythonhosted.org/packages/71/1e/1680394d9ad02bf7fb34f6e161b6eff62c972f2c1e647389ce2d324b3c25/requests-mock-1.9.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/71/1e/1680394d9ad02bf7fb34f6e161b6eff62c972f2c1e647389ce2d324b3c25/requests-mock-1.9.3.tar.gz
 Summary  : Mock out responses from the requests package
@@ -19,7 +19,6 @@ BuildRequires : pypi(pbr)
 BuildRequires : pypi(pytest)
 BuildRequires : pypi(requests)
 BuildRequires : pypi(six)
-BuildRequires : pypi(testtools)
 BuildRequires : pypi-pytest
 
 %description
@@ -64,7 +63,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641858956
+export SOURCE_DATE_EPOCH=1641863723
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
