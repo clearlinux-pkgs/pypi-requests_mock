@@ -1,5 +1,5 @@
 PKG_NAME := pypi-requests_mock
-URL = https://files.pythonhosted.org/packages/71/1e/1680394d9ad02bf7fb34f6e161b6eff62c972f2c1e647389ce2d324b3c25/requests-mock-1.9.3.tar.gz
+URL = https://files.pythonhosted.org/packages/9e/ea/c03f99a9df9086a686fd37072886563b5a9776d33b438147308fd95e4be7/requests-mock-1.10.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
