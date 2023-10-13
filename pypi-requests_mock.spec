@@ -4,7 +4,7 @@
 #
 Name     : pypi-requests_mock
 Version  : 1.10.0
-Release  : 75
+Release  : 76
 URL      : https://files.pythonhosted.org/packages/9e/ea/c03f99a9df9086a686fd37072886563b5a9776d33b438147308fd95e4be7/requests-mock-1.10.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9e/ea/c03f99a9df9086a686fd37072886563b5a9776d33b438147308fd95e4be7/requests-mock-1.10.0.tar.gz
 Summary  : Mock out responses from the requests package
