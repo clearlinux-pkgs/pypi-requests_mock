@@ -1,3 +1,4 @@
 1.10.0
+pypi(fixtures)
+pypi(purl)
 pypi-pytest
-pypi-testtools
