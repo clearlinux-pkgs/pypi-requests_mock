@@ -6,10 +6,10 @@
 # autospec commit: c02b2fe
 #
 Name     : pypi-requests_mock
-Version  : 1.12.0
-Release  : 81
-URL      : https://files.pythonhosted.org/packages/06/89/9c723a87feaa5359b7893d5a2c9a8547659b96d23b740c1dd4f93c79e762/requests-mock-1.12.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/06/89/9c723a87feaa5359b7893d5a2c9a8547659b96d23b740c1dd4f93c79e762/requests-mock-1.12.0.tar.gz
+Version  : 1.12.1
+Release  : 82
+URL      : https://files.pythonhosted.org/packages/92/32/587625f91f9a0a3d84688bf9cfc4b2480a7e8ec327cefd0ff2ac891fd2cf/requests-mock-1.12.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/92/32/587625f91f9a0a3d84688bf9cfc4b2480a7e8ec327cefd0ff2ac891fd2cf/requests-mock-1.12.1.tar.gz
 Summary  : Mock out responses from the requests package
 Group    : Development/Tools
 License  : Apache-2.0
@@ -66,10 +66,10 @@ python3 components for the pypi-requests_mock package.
 
 
 %prep
-%setup -q -n requests-mock-1.12.0
-cd %{_builddir}/requests-mock-1.12.0
+%setup -q -n requests-mock-1.12.1
+cd %{_builddir}/requests-mock-1.12.1
 pushd ..
-cp -a requests-mock-1.12.0 buildavx2
+cp -a requests-mock-1.12.1 buildavx2
 popd
 
 %build
@@ -77,7 +77,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1711642374
+export SOURCE_DATE_EPOCH=1711728304
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
